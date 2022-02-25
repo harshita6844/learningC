@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+   char ch;
+   printf("Enter the alphabet you want to check whether it is a VOWEL or CONSONANT");
+   scanf(" %c",&ch);
+   if((ch=='a')||(ch=='A'))                                             /* The "||" sign is the OR sign here, it returns true value if any one of the given conditions is satisfied.*/
+   {
+       printf(" %c is a VOWEL", ch);
+   }
+   else if((ch=='e')||(ch=='E'))                                        /* Here the compiler will check if the given character is vowel or not*/
+   {
+       printf("%c is a VOWEL", ch);
+    }
+     else if((ch=='i')||(ch=='I'))
+   {
+       printf("%c is a VOWEL", ch);
+   }
+    else if((ch=='o')||(ch=='O'))
+   {
+       printf("%c is a VOWEL", ch);
+   }
+    else if((ch=='u')||(ch=='U'))
+   {
+       printf("%c is a VOWEL", ch);
+   }
+    else
+   {
+       printf("%c is a CONSONANT", ch);
+   }
+}
+
