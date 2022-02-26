@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a;
+    printf("loop starts:\n");
+    for(a=1;a<=100;a++)
+    {
+            printf("%d\n",a);
+
+    }
+}
+
